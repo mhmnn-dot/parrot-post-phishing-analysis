@@ -1,0 +1,78 @@
+Step 1: Initial Email Inspection
+
+The exercise begins with a received email claiming to be from Parrot Post, informing the recipient about a delivery issue that requires urgent action.
+
+Key observations:
+
+The email creates urgency by stating the parcel cannot be delivered.
+
+The message encourages the user to click a link to “reschedule delivery” or “confirm details”.
+
+The branding and tone attempt to mimic a legitimate postal service.
+
+Step 2: Sender Address Analysis
+
+Upon inspecting the sender’s email address:
+
+The display name appears legitimate (e.g., Parrot Post Support).
+
+However, the actual email domain does not match an official Parrot Post domain.
+
+This mismatch is a common phishing tactic to exploit user trust.
+
+Flag Identified:
+ Phishing Indicator – Spoofed sender domain
+
+Step 3: Email Header Analysis
+
+Next, the email headers were examined to identify technical red flags.
+
+Findings:
+
+The Return-Path and Received fields show the email originated from an untrusted or unrelated mail server.
+
+SPF/DKIM results either failed or were missing, indicating the sender is not authorized.
+
+IP addresses do not resolve to official Parrot Post infrastructure.
+
+Flag Identified:
+ Malicious origin identified in email headers
+
+Step 4: Link Inspection
+
+Without clicking the link:
+
+Hovering over the embedded URL revealed a suspicious domain.
+
+The link does not point to an official Parrot Post website.
+
+The URL structure appears obfuscated or shortened to hide its destination.
+
+Example characteristics:
+
+Random characters in domain name
+
+Use of HTTP instead of HTTPS
+
+Misspelled or misleading domain (typosquatting)
+
+Flag Identified:
+ Malicious phishing URL
+
+
+Step 5: Phishing Website Analysis (Non-Interactive)
+
+The phishing page was viewed without submitting any information.
+
+Observations:
+
+The site requests personal information such as name, address, or payment details.
+
+Poor grammar and inconsistent branding were present.
+
+No valid SSL certificate or improper HTTPS configuration.
+
+This confirms the email’s intent is to steal sensitive user information.
+
+Flag Identified:
+ Credential harvesting phishing page
