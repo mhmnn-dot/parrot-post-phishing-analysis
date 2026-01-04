@@ -1,0 +1,7 @@
+| Flag Description                  | Answer (Example)                       |
+| --------------------------------- | -------------------------------------- |
+| Spoofed sender domain             | `fake@parrot-post-support[.]com`       |
+| Malicious URL                     | `http://parrot-post-track[.]xyz/login` |
+| Phishing technique                | Urgency + Impersonation                |
+| Attack type                       | Credential Harvesting                  |
+| Primary social engineering method | Brand impersonation                    |
