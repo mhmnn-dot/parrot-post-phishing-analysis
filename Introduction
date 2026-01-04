@@ -1,0 +1,6 @@
+## Introduction
+
+This exercise focuses on analyzing a phishing email scenario known as “Parrot Post”, commonly used in cybersecurity training platforms to teach email-based social engineering detection.
+The objective of the exercise is to examine a suspicious email, identify phishing indicators, analyze technical email artifacts, and extract specific flags (answers) that prove understanding of phishing techniques.
+The assessment simulates a real-world situation where attackers impersonate a trusted delivery service (Parrot Post) to trick users into clicking malicious links or revealing sensitive information.
+By completing this task, students gain hands-on experience in identifying phishing emails using both technical analysis and human-centric indicators.
